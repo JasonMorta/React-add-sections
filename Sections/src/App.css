@@ -1,0 +1,115 @@
+#root {
+  width: 100%;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+main {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.card {
+  padding: 2em;
+  position: absolute;
+  bottom: 10px;
+  right: 50%;
+  transform: translateX(50%);
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.accordion-item {
+  flex-direction: column;
+}
+
+.form-control {
+  width: 100% !important;
+}
+
+section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 10px;
+  width: 100%;
+}
+
+section > * {
+  width: 30%;
+  border: 1px rgba(110, 110, 110, 0.123) solid;
+  border-radius: 5px;
+}
+
+section >*:hover {
+  border: 2px solid red;
+  cursor: pointer;
+}
+
+
+.accordion-header {
+  width: 100%;
+}
+
+.accordion-item {
+  justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.accordion-body {
+  flex-wrap: wrap;
+}
+
+.section_item {
+  position: relative;
+}
+
+.editSection_btn {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: #3a92df00;
+    border: 0;
+}
+
+.editSection_btn:hover {
+  background-color: #3a92df00;
+}
